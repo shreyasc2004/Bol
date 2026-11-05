@@ -1,0 +1,16 @@
+{
+  "base_model": "bharatgenai/Param-1-2.9B-Instruct",
+  "original_tokenizer_revision": "f9b32a727458727ff515fea5d82df00ae9b7ad56",
+  "quantization_repository": "arunmcops/Param-1-2.9B-Instruct-GGUF",
+  "quantization_revision": "36bfaad11e8c494d982517f48e004de641def42f",
+  "quantization": "Q4_K_M",
+  "dataset": "ai4bharat/Aksharantar",
+  "dataset_revision": "e418c1fc928d9f5393af33268472cf20c1891be8",
+  "runtime": "ggml-org/llama.cpp b12034",
+  "sha256": {
+    "models\\Param-1-2.9B-Instruct-Q4_K_M.gguf": "11bbaa8d5c6d6d7c6ec64947f5a4b5bb29ecebe6642a10ecd42404039ece23c0",
+    "models\\llama-cpu.zip": "16c38cd9ff7487bf118a37808784245a2d639d844110f21fe9b373aaa40ff511",
+    "models\\aksharantar-hin.zip": "208c2d1b128234e6dc777b750779b4f5e6214ab43244039349b530bf9868bdaf",
+    "models\\param1\\tokenizer.json": "08ab3607c8b417b8273334a977047ec5f0888b71a12af9e41fddcb11558bf575"
+  }
+}

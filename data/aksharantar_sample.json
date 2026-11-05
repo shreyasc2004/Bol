@@ -1,0 +1,452 @@
+[
+  {
+    "id": "hin4302",
+    "category": "AK-NEF",
+    "input": "carson",
+    "expected": "कार्सन",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin3937",
+    "category": "AK-NEF",
+    "input": "ali",
+    "expected": "अली",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin8774",
+    "category": "Dakshina",
+    "input": "bona",
+    "expected": "बोना",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin5870",
+    "category": "Dakshina",
+    "input": "nazarandaaj",
+    "expected": "नजरंदाज",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin5436",
+    "category": "AK-NEI",
+    "input": "pal",
+    "expected": "पाल",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin2051",
+    "category": "AK-Freq",
+    "input": "khelaane",
+    "expected": "खेलाने",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin2517",
+    "category": "AK-Freq",
+    "input": "oksident",
+    "expected": "ऑक्सीडेंट",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin8746",
+    "category": "Dakshina",
+    "input": "huppar",
+    "expected": "हूपर",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin6651",
+    "category": "Dakshina",
+    "input": "chachaji",
+    "expected": "चाचाजी",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin7369",
+    "category": "Dakshina",
+    "input": "killi",
+    "expected": "किल्ली",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin8122",
+    "category": "Dakshina",
+    "input": "babt",
+    "expected": "बाबत",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin1391",
+    "category": "AK-Freq",
+    "input": "antarraajyeekaran",
+    "expected": "अंतरराज्यीकरण",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin9495",
+    "category": "Dakshina",
+    "input": "nights",
+    "expected": "नाइट्रस",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin8964",
+    "category": "Dakshina",
+    "input": "harjeet",
+    "expected": "हारजीत",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin6800",
+    "category": "Dakshina",
+    "input": "andheri",
+    "expected": "अंधेरी",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin8402",
+    "category": "Dakshina",
+    "input": "kaaji",
+    "expected": "काजी",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin10006",
+    "category": "Dakshina",
+    "input": "ipad",
+    "expected": "आईपैड",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin744",
+    "category": "AK-Freq",
+    "input": "khaatutola",
+    "expected": "खातूटोला",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin3129",
+    "category": "AK-Freq",
+    "input": "tathyo",
+    "expected": "तथ्यो",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin5697",
+    "category": "Dakshina",
+    "input": "consultant",
+    "expected": "कंसलटेंट",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin7213",
+    "category": "Dakshina",
+    "input": "dridh",
+    "expected": "दृढ़",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin5149",
+    "category": "AK-NEI",
+    "input": "haokip",
+    "expected": "हाओकिप",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin3128",
+    "category": "AK-Freq",
+    "input": "yooropiyaa",
+    "expected": "यूरोपिया",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin7731",
+    "category": "Dakshina",
+    "input": "kalraj",
+    "expected": "कलराज",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin9996",
+    "category": "Dakshina",
+    "input": "kursiyon",
+    "expected": "कुर्सियों",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin1001",
+    "category": "AK-Freq",
+    "input": "suchnah",
+    "expected": "सूचनाः",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin4558",
+    "category": "AK-NEI",
+    "input": "nmdc",
+    "expected": "एनएमडीसी",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin199",
+    "category": "AK-Freq",
+    "input": "chacchaa",
+    "expected": "चच्चा",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin1410",
+    "category": "AK-Freq",
+    "input": "prasaarakon",
+    "expected": "प्रसारकों",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin6805",
+    "category": "Dakshina",
+    "input": "fodo",
+    "expected": "फोड़ों",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin822",
+    "category": "AK-Freq",
+    "input": "phaibrik",
+    "expected": "फाइब्रिक",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin4057",
+    "category": "AK-NEF",
+    "input": "collierville",
+    "expected": "कोलिरिबल",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin2251",
+    "category": "AK-Freq",
+    "input": "shreemahapoorn",
+    "expected": "श्रीमहापूर्ण",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin2258",
+    "category": "AK-Freq",
+    "input": "jagadeeshachandra",
+    "expected": "जगदीशचंद्र",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin5608",
+    "category": "AK-NEI",
+    "input": "barasat",
+    "expected": "बारासत",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin1371",
+    "category": "AK-Freq",
+    "input": "sambhalataa",
+    "expected": "संभलता",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin3096",
+    "category": "AK-Freq",
+    "input": "announcer",
+    "expected": "अनाउंसर",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin6433",
+    "category": "Dakshina",
+    "input": "swaachaalit",
+    "expected": "स्वाचालित",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin3555",
+    "category": "AK-Freq",
+    "input": "pratirodhaatmak",
+    "expected": "प्रतिरोधात्मक",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin6924",
+    "category": "Dakshina",
+    "input": "khaatey",
+    "expected": "खाते",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin577",
+    "category": "AK-Freq",
+    "input": "utsawadharmitaa",
+    "expected": "उत्सवधर्मिता",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin509",
+    "category": "AK-Freq",
+    "input": "vakif",
+    "expected": "वाकिफ़",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin8944",
+    "category": "Dakshina",
+    "input": "jamana",
+    "expected": "ज़माना",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin1216",
+    "category": "AK-Freq",
+    "input": "klictivism",
+    "expected": "क्लिक्टिविज्म",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin5250",
+    "category": "AK-NEI",
+    "input": "shrivas",
+    "expected": "श्रीवास",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin5708",
+    "category": "Dakshina",
+    "input": "shirshakon",
+    "expected": "शीर्षकों",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin2988",
+    "category": "AK-Freq",
+    "input": "udaghoshak",
+    "expected": "उदघोषक",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin4435",
+    "category": "AK-NEF",
+    "input": "madison",
+    "expected": "मेडिसन",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin6673",
+    "category": "Dakshina",
+    "input": "hasinon",
+    "expected": "हसीनों",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  },
+  {
+    "id": "hin4030",
+    "category": "AK-NEF",
+    "input": "calhoun",
+    "expected": "कालहॉन",
+    "preserve_english": false,
+    "dataset": "ai4bharat/Aksharantar",
+    "split": "hin_test"
+  }
+]

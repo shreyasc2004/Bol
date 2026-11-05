@@ -1,0 +1,8 @@
+# Install after requirements.txt. The RNN engine avoids Fairseq on Windows.
+# Install ai4bharat-transliteration with --no-deps; see README.md.
+torch>=2.6,<3
+numpy>=1.26,<3
+pandas>=2.2,<3
+tqdm>=4.66,<5
+pydload==1.0.9
+tokenizers==0.20.3

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A Hindi writing workspace powered by AI4Bharat transliteration.">
+  <title>Bol — Hinglish Writing Assistant</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="{{ url_for('static', filename='app.js') }}" defer></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="/" aria-label="Bol home"><span class="brand-icon" lang="hi">ब</span>bol<span class="brand-dot">.</span></a><span class="course">HINGLISH WRITING ASSISTANT</span><span class="local-badge"><i></i> Local workspace</span></header>
+  <main>
+    <div class="intro"><div><p class="eyebrow">YOUR WORDS. YOUR LANGUAGE.</p><h1>Think in Hinglish.<br>Write in <span>हिंदी.</span></h1><p class="subtitle">A little less typing effort. A little more expression.<br>Turn the way you speak into the words you want to share.</p></div><div class="language-art" aria-hidden="true"><span class="roman">Aa</span><span class="arrow">↗</span><span class="hindi" lang="hi">अ</span><small>A CHANGE OF SCRIPT.<br>THE SAME YOU.</small></div></div>
+    <section class="workspace" aria-label="Writing workspace">
+      <div class="workspace-bar"><span><i class="green-dot"></i> HINGLISH <span class="muted">→</span> HINDI</span><span class="small-label">Roman to Devanagari</span></div>
+      <div class="editors">
+        <div class="editor source"><div class="editor-heading"><label for="source">Your Hinglish</label><button class="text-button" id="clear">Clear</button></div><textarea id="source" maxlength="2000" placeholder="mujhe kal college jana hai…" spellcheck="false" aria-describedby="input-help"></textarea><div class="editor-foot"><span id="input-help">Type naturally, just like a message.</span><span id="count">0 / 2,000</span></div></div>
+        <div class="editor result"><div class="editor-heading"><label for="output">Your Hindi</label><span class="ready-label" id="result-label">Ready when you are</span></div><textarea id="output" lang="hi" placeholder="आपके शब्द, आपकी भाषा…" aria-label="Hindi output, editable" spellcheck="false"></textarea><div class="editor-foot"><span id="result-meta">Your converted text will appear here.</span><div class="output-tools"><button class="text-button" id="copy" disabled>Copy</button><button class="text-button" id="download" disabled>↓ Download</button></div></div></div>
+      </div>
+      <div class="actionbar"><label class="checkbox"><input type="checkbox" id="preserve" checked> Keep common English words <span title="Preserves a small list of English terms and uppercase acronyms, not automatic language detection.">ⓘ</span></label><button class="primary" id="convert">Convert to Hindi <span>↗</span></button></div>
+      <div id="message" class="message" role="status" aria-live="polite" hidden></div>
+    </section>
+    <div class="examples"><span>TRY A LITTLE SOMETHING</span><button data-example="mujhe kal college jana hai">A college day ↗</button><button data-example="namaste, aap kaise hain?">Say hello ↗</button><button data-example="kya aap meri madad kar sakte hain?">Ask politely ↗</button></div>
+    <section class="suggestions" id="suggestions" hidden><div class="section-heading"><h2>A word can have a few spellings.</h2><span>Select a word to see alternatives.</span></div><div id="word-options"></div><p id="candidate-options"></p></section>
+    <section class="polish"><div class="polish-intro"><span class="mini-icon">✦</span><h2>A finishing touch.</h2><p>Tidy the spacing, or use a connected writing model to find the right tone.</p></div><div class="polish-controls"><label for="tone">Writing tone</label><select id="tone"><option value="natural">Natural</option><option value="formal">Formal</option><option value="friendly">Friendly</option><option value="concise">Concise</option></select><div class="polish-buttons"><button id="cleanup" class="secondary">Tidy spacing</button><button id="rewrite" class="secondary" disabled>✦ Improve phrasing</button><button id="translate" class="secondary" disabled>English translation</button></div><p class="model-note" id="llm-note">Checking writing model…</p></div></section>
+    <footer><span>AI4Bharat × BharatGen · Hindi writing</span><details><summary>Models & project notes</summary><p id="engine-note"></p><p>Transliteration changes script; it does not translate meaning. Common English words use a limited preservation list. Review names, ambiguous spellings and generated rewrites before using them.</p><p>Conversion uses AI4Bharat's Hindi model. Phrasing and translation use BharatGen Param1, running locally in a quantized format. Your writing stays on this computer. Successful results are cached in memory until the app closes. No API key or hosted inference quota is required.</p><p>Evaluation includes 40 authored application cases, an attributed Aksharantar Hindi test sample and separate Param1 writing tests. See README.md for model provenance and measured limitations.</p></details></footer>
+  </main>
+</body>
+</html>
